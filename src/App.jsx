@@ -15,16 +15,16 @@ function App() {
 
           <nav className="nav container-flex">
 
-            <h3>Characters</h3>
-            <h3>Comics</h3>
-            <h3>Movies</h3>
-            <h3>TV</h3>
-            <h3>Games</h3>
-            <h3>Collectibles</h3>
-            <h3>Videos</h3>
-            <h3>Fans</h3>
-            <h3>News</h3>
-            <h3>Shop</h3>
+            <h3><a href="#">Characters</a></h3>
+            <h3><a href="#">Comics</a></h3>
+            <h3><a href="#">Movies</a></h3>
+            <h3><a href="#">TV</a></h3>
+            <h3><a href="#">Games</a></h3>
+            <h3><a href="#">Collectibles</a></h3>
+            <h3><a href="#">Videos</a></h3>
+            <h3><a href="#">Fans</a></h3>
+            <h3><a href="#">News</a></h3>
+            <h3><a href="#">Shop</a></h3>
           </nav>
 
 
@@ -41,19 +41,19 @@ function App() {
 
           <div className="blue-bg container-flex">
 
-            <img className="icon" src="./img/buy-comics-digital-comics.png" alt="" />
+            <img className="icon" src="./img/buy-comics-digital-comics.png" alt="DC Icon" />
             <h4>Digital Comics</h4>
 
-            <img className="icon" src="./img/buy-comics-merchandise.png" alt="" />
+            <img className="icon" src="./img/buy-comics-merchandise.png" alt="DC Icon" />
             <h4>DC Merchandise</h4>
 
-            <img className="icon" src="./img/buy-comics-subscriptions.png" alt="" />
+            <img className="icon" src="./img/buy-comics-subscriptions.png" alt="DC Icon" />
             <h4>Subscription</h4>
 
-            <img className="icon" src="./img/buy-comics-shop-locator.png" alt="" />
+            <img className="icon" src="./img/buy-comics-shop-locator.png" alt="DC Icon" />
             <h4>Comic Shop Locator</h4>
 
-            <img className="icon" src="./img/buy-dc-power-visa.svg" alt="" />
+            <img className="icon" src="./img/buy-dc-power-visa.svg" alt="DC Icon" />
             <h4>DC Power Visa</h4>
 
           </div>
@@ -113,7 +113,7 @@ function App() {
 
             <div className="bg-logo container-flex">
 
-              <img src="./img/dc-logo-bg.png" alt="" />
+              <img src="./img/dc-logo-bg.png" alt="DC Logo" />
 
             </div>
 
@@ -130,11 +130,11 @@ function App() {
             <div className="social-section container-flex">
 
               <h4>FOLLOW US</h4>
-              <img src="./img/footer-facebook.png" alt="" />
-              <img src="./img/footer-twitter.png" alt="" />
-              <img src="./img/footer-youtube.png" alt="" />
-              <img src="./img/footer-pinterest.png" alt="" />
-              <img src="./img/footer-periscope.png" alt="" />
+              <img src="./img/footer-facebook.png" alt="Social Icon" />
+              <img src="./img/footer-twitter.png" alt="Social Icon" />
+              <img src="./img/footer-youtube.png" alt="Social Icon" />
+              <img src="./img/footer-pinterest.png" alt="Social Icon" />
+              <img src="./img/footer-periscope.png" alt="Social Icon" />
 
             </div>
 

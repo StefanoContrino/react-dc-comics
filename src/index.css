@@ -29,8 +29,23 @@
 }
 
 .nav {
-  justify-content: space-around;
   text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav>h3 {
+  padding: 0 0.75rem;
+}
+
+.nav>h3>a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav>h3>a:hover {
+  color: #0282F9;
+  cursor: pointer;
 }
 
 /********************** Main CSS *********************************/
@@ -108,7 +123,7 @@ p {
 }
 
 .btn {
-  padding: 0.5rem;
+  padding: 0.75rem;
   text-align: center;
   text-decoration: none;
   font-size: 16px;
