@@ -1,0 +1,139 @@
+/********************** Universal CSS *********************************/
+
+.body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container-flex {
+  display: flex;
+}
+
+/********************** Header CSS *********************************/
+
+.header {
+  padding: 1rem 0;
+}
+
+.header>.first-logo {
+  width: 30%;
+}
+
+.header>.nav {
+  width: 70%;
+}
+
+.first-logo {
+  justify-content: center;
+}
+
+.nav {
+  justify-content: space-around;
+  text-align: center;
+}
+
+/********************** Main CSS *********************************/
+
+.black-bg {
+  height: 10rem;
+  background-color: #1C1C1C;
+  justify-content: left;
+  align-items: center;
+  padding-left: 7rem;
+}
+
+.blue-bg {
+  height: 10rem;
+  background-color: #0282F9;
+  justify-content: center;
+  align-items: center;
+}
+
+.white-text {
+  color: white;
+}
+
+.icon {
+  height: 3.5rem;
+  padding-left: 4.5rem;
+  padding-right: 0.5rem;
+}
+
+.blue-bg>h4 {
+  color: white;
+}
+
+/********************** Footer CSS *********************************/
+
+.footer {
+  background-image: url("../img/footer-bg.jpg");
+  background-size: cover;
+}
+
+.section {
+  padding: 1.5rem;
+}
+
+.contacts {
+  justify-content: center;
+}
+
+.bg-logo {
+  height: 35rem;
+  padding: 1rem 0;
+}
+
+.section>h2,
+p {
+  color: white;
+}
+
+.link>.contacts {
+  width: 50%;
+}
+
+.link>.bg-logo {
+  width: 50%;
+}
+
+.social {
+  background-color: #303030;
+  height: 7rem;
+}
+
+.btn-section {
+  align-items: center;
+  padding-left: 9rem;
+}
+
+.btn {
+  padding: 0.5rem;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #303030;
+  border: 2px #0282F9 solid;
+  color: white;
+}
+
+.social-section {
+  align-items: center;
+}
+
+.social-section * {
+  padding: 0 1rem;
+}
+
+.social>.btn-section {
+  width: 50%;
+}
+
+.social>.social-section {
+  width: 50%;
+}
+
+.social-section>h4 {
+  color: #0282F9;
+}
