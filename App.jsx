@@ -1,4 +1,30 @@
+import comics from "./comics.js"
+
 function App() {
+
+
+  const topLinks = [
+    { nome: "Character", href: "#" },
+    { nome: "Comics", href: "#" },
+    { nome: "Movies", href: "#" },
+    { nome: "TV", href: "#" },
+    { nome: "Games", href: "#" },
+    { nome: "Collectibles", href: "#" },
+    { nome: "Videos", href: "#" },
+    { nome: "Fans", href: "#" },
+    { nome: "News", href: "#" },
+    { nome: "Shop", href: "#" }
+  ]
+
+  const totalProducts = [
+
+    { nome: "Digital Comics", classe: "icon", src: "./img/buy-comics-digital-comics.png", alt: "DC Icon" },
+    { nome: "DC Merchandise", classe: "icon", src: "./img/buy-comics-merchandise.png", alt: "DC Icon" },
+    { nome: "Subscription", classe: "icon", src: "./img/buy-comics-subscriptions.png", alt: "DC Icon" },
+    { nome: "Comic Shop Locator", classe: "icon", src: "./img/buy-comics-shop-locator.png", alt: "DC Icon" },
+    { nome: "DC Power Visa", classe: "icon", src: "./img/buy-dc-power-visa.svg", alt: "DC Icon" }
+  ]
+
 
   return (
     <>
@@ -15,46 +41,47 @@ function App() {
 
           <nav className="nav container-flex">
 
-            <h3><a href="#">Characters</a></h3>
-            <h3><a href="#">Comics</a></h3>
-            <h3><a href="#">Movies</a></h3>
-            <h3><a href="#">TV</a></h3>
-            <h3><a href="#">Games</a></h3>
-            <h3><a href="#">Collectibles</a></h3>
-            <h3><a href="#">Videos</a></h3>
-            <h3><a href="#">Fans</a></h3>
-            <h3><a href="#">News</a></h3>
-            <h3><a href="#">Shop</a></h3>
+            {topLinks.map(link => {
+              return <h3><a href="link.href">{link.nome}</a></h3>
+            })}
+
+
+
           </nav>
-
-
 
         </header>
 
         <main>
 
+          <div className="jumbotron" >
+
+          </div>
+
           <div className="black-bg container-flex">
 
-            <h2 className="white-text">&#8594; Content goes here &#8592;</h2>
+            {comics.map(comic => {
+
+              return (
+                <div className="comics-container">
+                  <img className="comics" src={comic.thumb} />
+                  {/* <h4>{comic.title}</h4> */}
+                </div>
+              )
+            })}
 
           </div>
 
           <div className="blue-bg container-flex">
 
-            <img className="icon" src="./img/buy-comics-digital-comics.png" alt="DC Icon" />
-            <h4>Digital Comics</h4>
+            {totalProducts.map(product => {
+              return (
+                <>
+                  <img className={product.classe} src={product.src} alt={product.alt} />,
+                  <h4>{product.nome}</h4>
+                </>
+              )
+            })}
 
-            <img className="icon" src="./img/buy-comics-merchandise.png" alt="DC Icon" />
-            <h4>DC Merchandise</h4>
-
-            <img className="icon" src="./img/buy-comics-subscriptions.png" alt="DC Icon" />
-            <h4>Subscription</h4>
-
-            <img className="icon" src="./img/buy-comics-shop-locator.png" alt="DC Icon" />
-            <h4>Comic Shop Locator</h4>
-
-            <img className="icon" src="./img/buy-dc-power-visa.svg" alt="DC Icon" />
-            <h4>DC Power Visa</h4>
 
           </div>
 

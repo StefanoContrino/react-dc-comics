@@ -48,14 +48,21 @@
   cursor: pointer;
 }
 
+.jumbotron {
+  width: 100%;
+  height: 22.5rem;
+  background-image: url("./img/jumbotron.jpg");
+}
+
 /********************** Main CSS *********************************/
 
 .black-bg {
-  height: 10rem;
+  height: 30rem;
   background-color: #1C1C1C;
-  justify-content: left;
+  justify-content: center;
   align-items: center;
-  padding-left: 7rem;
+  flex-wrap: wrap;
+  padding: 0 20rem;
 }
 
 .blue-bg {
@@ -77,6 +84,11 @@
 
 .blue-bg>h4 {
   color: white;
+}
+
+.comics {
+  height: 10rem;
+  padding-right: 1.5rem;
 }
 
 /********************** Footer CSS *********************************/
