@@ -64,7 +64,7 @@ function App() {
               return (
                 <div className="comics-container">
                   <img className="comics" src={comic.thumb} />
-                  {/* <h4>{comic.title}</h4> */}
+                  <h4 className="card-text">{comic.title}</h4>
                 </div>
               )
             })}

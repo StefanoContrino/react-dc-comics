@@ -57,12 +57,12 @@
 /********************** Main CSS *********************************/
 
 .black-bg {
-  height: 30rem;
+
   background-color: #1C1C1C;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  padding: 0 20rem;
+  padding: 2rem 0;
 }
 
 .blue-bg {
@@ -78,17 +78,29 @@
 
 .icon {
   height: 3.5rem;
-  padding-left: 4.5rem;
-  padding-right: 0.5rem;
+  padding: 0 4.5rem;
 }
 
 .blue-bg>h4 {
   color: white;
 }
 
-.comics {
-  height: 10rem;
-  padding-right: 1.5rem;
+.comics-container {
+  width: calc((100%/6) - 1rem);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.comics-container>img {
+  width: 50%;
+}
+
+.card-text {
+  font-size: 0.75rem;
+  color: white;
+  text-align: center;
 }
 
 /********************** Footer CSS *********************************/
