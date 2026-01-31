@@ -1,0 +1,45 @@
+.container-flex {
+    display: flex;
+}
+
+.header {
+    padding: 1rem 0;
+}
+
+.header>.first-logo {
+    width: 30%;
+}
+
+.header>.nav {
+    width: 70%;
+}
+
+.first-logo {
+    padding-left: 5rem;
+}
+
+.nav {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav>h3 {
+    padding: 0 0.75rem;
+}
+
+.nav>h3>a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav>h3>a:hover {
+    color: #0282F9;
+    cursor: pointer;
+}
+
+.jumbotron {
+    width: 100%;
+    height: 22.5rem;
+    background-image: url("./img/jumbotron.jpg");
+}

@@ -1,0 +1,47 @@
+.container-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.black-bg {
+    background-color: #1C1C1C;
+    padding: 2rem 0;
+}
+
+.blue-bg {
+    height: 10rem;
+    background-color: #0282F9;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+    height: 3.5rem;
+}
+
+.blue-bg>h4 {
+    color: white;
+    padding-right: 3rem;
+    padding-left: 0.5rem;
+}
+
+.comics-container {
+    width: calc((100%/6) - 1rem);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.comics-container>img {
+    width: 50%;
+}
+
+.comics-container>h4 {
+    font-size: 0.75rem;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}

@@ -1,0 +1,83 @@
+.container-flex {
+    display: flex;
+}
+
+.footer {
+    background-image: url("../img/footer-bg.jpg");
+    background-size: cover;
+}
+
+.section {
+    padding: 1.5rem;
+}
+
+.section>h2 {
+    padding-top: 2rem;
+}
+
+.section>p {
+    padding-top: 0.65rem;
+}
+
+.contacts {
+    justify-content: center;
+}
+
+.bg-logo {
+    height: 35rem;
+    padding: 1rem 0;
+}
+
+.section>h2,
+p {
+    color: white;
+}
+
+.link>.contacts {
+    width: 50%;
+}
+
+.link>.bg-logo {
+    width: 50%;
+}
+
+.social {
+    background-color: #303030;
+    height: 7rem;
+}
+
+.btn-section {
+    align-items: center;
+    padding-left: 9rem;
+}
+
+.btn {
+    padding: 0.75rem;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #303030;
+    border: 2px #0282F9 solid;
+    color: white;
+}
+
+.social-section {
+    align-items: center;
+}
+
+.social-section * {
+    padding: 0 1rem;
+}
+
+.social>.btn-section {
+    width: 50%;
+}
+
+.social>.social-section {
+    width: 50%;
+}
+
+.social-section>h4 {
+    color: #0282F9;
+}
