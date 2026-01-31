@@ -1,5 +1,4 @@
 import style from "./Body.module.css"
-import comics from "../data/comics.js"
 import totalProducts from "../data/bodyLinks.jsx"
 import ComicImage from "./ComicImage.jsx"
 
@@ -10,12 +9,24 @@ function Body() {
         <main>
 
             <div className={style.jumbotron} >
-
+                <img src="/jumbotron.jpg" alt="" />
             </div>
 
-            <div className={`${style["black-bg"]} ${style["container-flex"]}`}>
+            <div className={`${style["black-bg"]} ${style["container-flex"]} ${style.relative}`}>
+
+                <div className={style["btn-container"]}>
+
+                    <button className={`${style["blue-btn"]} ${style.absolute}`}>Current Series</button>
+
+                </div>
 
                 <ComicImage />
+
+                <div className={style["btn-container"]}>
+
+                    <button className={style["blue-btn"]}>Load More</button>
+
+                </div>
 
             </div>
 

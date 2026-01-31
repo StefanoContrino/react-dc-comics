@@ -24,8 +24,16 @@
 }
 
 .bg-logo {
-    height: 35rem;
+
     padding: 1rem 0;
+    position: relative;
+    z-index: 1;
+}
+
+.bottom-logo {
+    position: absolute;
+    z-index: 0;
+    bottom: -10%;
 }
 
 .section>h2,
@@ -44,6 +52,8 @@ p {
 .social {
     background-color: #303030;
     height: 7rem;
+    position: relative;
+    z-index: 1;
 }
 
 .btn-section {

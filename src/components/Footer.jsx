@@ -56,7 +56,7 @@ function Footer() {
 
                 <div className={`${style["bg-logo"]} ${style["container-flex"]}`}>
 
-                    <img src="./img/dc-logo-bg.png" alt="DC Logo" />
+                    <img className={style["bottom-logo"]} src="./img/dc-logo-bg.png" alt="DC Logo" />
 
                 </div>
 
@@ -72,7 +72,7 @@ function Footer() {
 
                 <div className={`${style["social-section"]} ${style["container-flex"]}`}>
 
-                    < h4 > FOLLOW US</h4 >
+                    <h4> FOLLOW US</h4 >
                     <img src="./img/footer-facebook.png" alt="Social Icon" />
                     <img src="./img/footer-twitter.png" alt="Social Icon" />
                     <img src="./img/footer-youtube.png" alt="Social Icon" />
