@@ -8,7 +8,7 @@ function ComicImage() {
     return <div className={`${style["container-flex"]}`}>
 
         {comics.map(comic => {
-            return <ComicCard img={comic.thumb} title={comic.title} />
+            return <ComicCard img={comic.thumb} title={comic.title} key={comic.id} />
         })}
 
     </div>

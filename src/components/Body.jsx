@@ -37,7 +37,7 @@ function Body() {
 
                         <>
                             <img className={style.icon} src={product.src} alt={product.alt} />
-                            <h4>{product.nome}</h4>
+                            <h4 key={product.key}>{product.nome}</h4>
                         </>
                     )
                 })}

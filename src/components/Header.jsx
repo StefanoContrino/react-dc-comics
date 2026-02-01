@@ -13,7 +13,7 @@ function Header() {
             <nav className={`${style.nav} ${style["container-flex"]}`}>
 
                 {links.map(link => {
-                    return <h3><a href="link.href">{link.nome}</a></h3>
+                    return <h3><a href={link.href} key={link.key}>{link.nome}</a></h3>
                 })}
 
 
