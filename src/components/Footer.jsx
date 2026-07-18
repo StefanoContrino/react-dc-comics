@@ -73,11 +73,11 @@ function Footer() {
                 <div className={`${style["social-section"]} ${style["container-flex"]}`}>
 
                     <h4> FOLLOW US</h4 >
-                    <img src="./img/footer-facebook.png" alt="Social Icon" />
-                    <img src="./img/footer-twitter.png" alt="Social Icon" />
-                    <img src="./img/footer-youtube.png" alt="Social Icon" />
-                    <img src="./img/footer-pinterest.png" alt="Social Icon" />
-                    <img src="./img/footer-periscope.png" alt="Social Icon" />
+                    <img src="../img/footer-facebook.png" alt="Social Icon" />
+                    <img src="../img/footer-twitter.png" alt="Social Icon" />
+                    <img src="../img/footer-youtube.png" alt="Social Icon" />
+                    <img src="../img/footer-pinterest.png" alt="Social Icon" />
+                    <img src="../img/footer-periscope.png" alt="Social Icon" />
 
                 </div >
 
